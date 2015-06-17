@@ -1,0 +1,56 @@
+/* Selcector {
+    Property: Value;
+*} */  
+
+p { 
+    color: red;
+    font-size: 12px;
+    background-color: blue; 
+}
+
+div p {
+    color: blue;
+    background: red;
+    font-size: 70px;
+}
+
+* {
+    font-family: Arial;
+}
+
+.class_test {
+  font-size: 150px;
+  color: white;
+}
+
+#id_test {
+    color: yellow;
+    font-size: 6px; 
+}
+
+.hover_test:hover {
+    color: purple;
+    font-size: 100;
+}
+
+a:visted {
+    color: lime;
+}
+
+#popular {
+    color: green;
+    color: #2FEBCB; #3f6
+    color: rgb(47, 235, 203); 
+    color: rgba(47, 235, 203, .5); 
+    background-color: #ffffff;
+    background-image: url("example.com/example.jpg");
+    background: url("example.jpg");
+    font-size: 12em;
+    font-family: Helvetica, Arial, sans-serif;
+    font-family: 'Raleway', sans-serif;
+    
+}
+
+a {
+    text-decoration: none;
+}
